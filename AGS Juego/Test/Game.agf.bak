@@ -759,7 +759,7 @@
                 <Name>t_character</Name>
                 <Text xml:space="preserve">Character name</Text>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>62285</TextColor>
+                <TextColor>5208</TextColor>
                 <Top>11</Top>
                 <Visible>True</Visible>
                 <Width>121</Width>
@@ -1117,10 +1117,10 @@
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>12</HotspotX>
+        <HotspotY>6</HotspotY>
         <ID>6</ID>
-        <Image>0</Image>
+        <Image>16</Image>
         <Name>Pointer</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
