@@ -1462,10 +1462,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>17</Height>
+                <Height>26</Height>
                 <ID>28</ID>
                 <Image>0</Image>
-                <Left>183</Left>
+                <Left>168</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Salir</Name>
@@ -1475,9 +1475,9 @@
                 <Text>Salir</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>38912</TextColor>
-                <Top>205</Top>
+                <Top>196</Top>
                 <Visible>True</Visible>
-                <Width>140</Width>
+                <Width>193</Width>
                 <ZOrder>28</ZOrder>
               </GUIButton>
             </Controls>
@@ -1532,22 +1532,22 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>36</Height>
+                <Height>70</Height>
                 <ID>1</ID>
-                <Image>0</Image>
-                <Left>354</Left>
+                <Image>25</Image>
+                <Left>350</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Volver</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>Volver_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
-                <Text>Volver</Text>
+                <Text />
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>63488</TextColor>
-                <Top>143</Top>
+                <Top>118</Top>
                 <Visible>True</Visible>
-                <Width>60</Width>
+                <Width>70</Width>
                 <ZOrder>1</ZOrder>
               </GUIButton>
             </Controls>
@@ -2324,6 +2324,11 @@
           <Name>HavePomniKey</Name>
           <Type>bool</Type>
         </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue />
+          <Name>needle</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -2742,6 +2747,21 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="25" Width="70" Height="70" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\rober\Downloads\Boton_volver.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>70</ImportHeight>
+                  <ImportWidth>70</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Puzzles">
@@ -2769,6 +2789,36 @@
                   <OffsetY>0</OffsetY>
                   <ImportHeight>170</ImportHeight>
                   <ImportWidth>300</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="28" Width="30" Height="30" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\rober\Downloads\Aguja.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>30</ImportHeight>
+                  <ImportWidth>30</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="29" Width="150" Height="147" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\rober\Downloads\cajaGalletasPng.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>147</ImportHeight>
+                  <ImportWidth>150</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
