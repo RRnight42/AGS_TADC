@@ -1789,9 +1789,9 @@
             <SpeechAnimationDelay>0</SpeechAnimationDelay>
             <SpeechColor>34623</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>277</StartX>
-            <StartY>408</StartY>
-            <StartingRoom>6</StartingRoom>
+            <StartX>550</StartX>
+            <StartY>479</StartY>
+            <StartingRoom>0</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1831,9 +1831,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>505</StartX>
-            <StartY>415</StartY>
-            <StartingRoom>6</StartingRoom>
+            <StartX>741</StartX>
+            <StartY>445</StartY>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1873,9 +1873,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>135</StartX>
-            <StartY>432</StartY>
-            <StartingRoom>6</StartingRoom>
+            <StartX>356</StartX>
+            <StartY>489</StartY>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1915,14 +1915,14 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>425</StartX>
-            <StartY>418</StartY>
-            <StartingRoom>6</StartingRoom>
+            <StartX>1121</StartX>
+            <StartY>506</StartY>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaScaling>False</UseRoomAreaScaling>
             <Interactions>
               <Event Index="0">npc_Zooble_Look</Event>
               <Event Index="1" />
@@ -1957,14 +1957,14 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>198</StartX>
-            <StartY>415</StartY>
-            <StartingRoom>6</StartingRoom>
+            <StartX>254</StartX>
+            <StartY>619</StartY>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaScaling>False</UseRoomAreaScaling>
             <Interactions>
               <Event Index="0">npc_Kinger_Look</Event>
               <Event Index="1" />
@@ -1999,14 +1999,14 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>586</StartX>
-            <StartY>272</StartY>
-            <StartingRoom>6</StartingRoom>
+            <StartX>442</StartX>
+            <StartY>349</StartY>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaScaling>False</UseRoomAreaScaling>
             <Interactions>
               <Event Index="0">npc_Caine_Look</Event>
               <Event Index="1" />
@@ -2035,20 +2035,20 @@
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>5</NormalView>
             <Properties />
-            <RealName xml:space="preserve">New character</RealName>
+            <RealName>Ragatha</RealName>
             <ScriptName>cRagatha</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>356</StartX>
-            <StartY>407</StartY>
-            <StartingRoom>6</StartingRoom>
+            <StartX>1226</StartX>
+            <StartY>499</StartY>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaScaling>False</UseRoomAreaScaling>
             <Interactions>
               <Event Index="0">npc_Ragatha_Look</Event>
               <Event Index="1" />
@@ -2090,7 +2090,7 @@
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaScaling>False</UseRoomAreaScaling>
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
@@ -2896,6 +2896,21 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="138" Width="640" Height="480" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\rober\Downloads\FIN.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>480</ImportHeight>
+                  <ImportWidth>640</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Dialogs">
@@ -3336,6 +3351,51 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="135" Width="62" Height="61" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\rober\Downloads\plantaGlitchPNG.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>61</ImportHeight>
+                  <ImportWidth>62</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="136" Width="62" Height="61" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\rober\Downloads\sillaGlitchPNG.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>61</ImportHeight>
+                  <ImportWidth>62</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="137" Width="62" Height="61" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\rober\Downloads\grapadoraGlitchPNG.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>61</ImportHeight>
+                  <ImportWidth>62</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="views">
@@ -3618,13 +3678,13 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="56" Width="50" Height="86" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="56" Width="75" Height="129" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\rober\Downloads\pomni_tadc_izquierda1.png</FileName>
+                      <FileName>C:\Users\rober\Downloads\pomni_tadc1.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>86</ImportHeight>
-                      <ImportWidth>50</ImportWidth>
+                      <ImportHeight>129</ImportHeight>
+                      <ImportWidth>75</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -3633,13 +3693,13 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="57" Width="50" Height="86" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="57" Width="75" Height="129" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\rober\Downloads\pomni_tadc_izquierda2.png</FileName>
+                      <FileName>C:\Users\rober\Downloads\pomni_tadc2.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>86</ImportHeight>
-                      <ImportWidth>50</ImportWidth>
+                      <ImportHeight>129</ImportHeight>
+                      <ImportWidth>75</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -3648,13 +3708,13 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="58" Width="50" Height="86" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="58" Width="75" Height="129" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\rober\Downloads\pomni_tadc_izquierda3.png</FileName>
+                      <FileName>C:\Users\rober\Downloads\pomni_tadc3.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>86</ImportHeight>
-                      <ImportWidth>50</ImportWidth>
+                      <ImportHeight>129</ImportHeight>
+                      <ImportWidth>75</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -3663,13 +3723,13 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="59" Width="50" Height="86" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="59" Width="75" Height="129" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\rober\Downloads\pomni_tadc_izquierda4.png</FileName>
+                      <FileName>C:\Users\rober\Downloads\pomni_tadc4.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>86</ImportHeight>
-                      <ImportWidth>50</ImportWidth>
+                      <ImportHeight>129</ImportHeight>
+                      <ImportWidth>75</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -3678,13 +3738,13 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="60" Width="50" Height="86" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="60" Width="75" Height="129" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\rober\Downloads\pomni_tadc_izquierda5.png</FileName>
+                      <FileName>C:\Users\rober\Downloads\pomni_tadc5.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>86</ImportHeight>
-                      <ImportWidth>50</ImportWidth>
+                      <ImportHeight>129</ImportHeight>
+                      <ImportWidth>75</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -3693,13 +3753,13 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="61" Width="50" Height="86" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="61" Width="75" Height="129" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\rober\Downloads\pomni_tadc_izquierda6.png</FileName>
+                      <FileName>C:\Users\rober\Downloads\pomni_tadc6.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>86</ImportHeight>
-                      <ImportWidth>50</ImportWidth>
+                      <ImportHeight>129</ImportHeight>
+                      <ImportWidth>75</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -3708,13 +3768,13 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="62" Width="50" Height="86" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="62" Width="75" Height="129" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\rober\Downloads\pomni_tadc_izquierda7.png</FileName>
+                      <FileName>C:\Users\rober\Downloads\pomni_tadc7.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>86</ImportHeight>
-                      <ImportWidth>50</ImportWidth>
+                      <ImportHeight>129</ImportHeight>
+                      <ImportWidth>75</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -3723,13 +3783,13 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="63" Width="50" Height="86" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="63" Width="75" Height="129" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\rober\Downloads\pomni_tadc_izquierda8.png</FileName>
+                      <FileName>C:\Users\rober\Downloads\pomni_tadc8.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>86</ImportHeight>
-                      <ImportWidth>50</ImportWidth>
+                      <ImportHeight>129</ImportHeight>
+                      <ImportWidth>75</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -3738,13 +3798,13 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="64" Width="50" Height="86" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="64" Width="75" Height="129" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\rober\Downloads\pomni_tadc_izquierda9.png</FileName>
+                      <FileName>C:\Users\rober\Downloads\pomni_tadc9.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>86</ImportHeight>
-                      <ImportWidth>50</ImportWidth>
+                      <ImportHeight>129</ImportHeight>
+                      <ImportWidth>75</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -4868,65 +4928,65 @@
                     <Frames>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>True</Flipped>
+                        <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>47</Image>
+                        <Image>56</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>True</Flipped>
+                        <Flipped>False</Flipped>
                         <ID>1</ID>
-                        <Image>48</Image>
+                        <Image>57</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>True</Flipped>
+                        <Flipped>False</Flipped>
                         <ID>2</ID>
-                        <Image>49</Image>
+                        <Image>58</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>True</Flipped>
+                        <Flipped>False</Flipped>
                         <ID>3</ID>
-                        <Image>50</Image>
+                        <Image>59</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>True</Flipped>
+                        <Flipped>False</Flipped>
                         <ID>4</ID>
-                        <Image>51</Image>
+                        <Image>60</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>True</Flipped>
+                        <Flipped>False</Flipped>
                         <ID>5</ID>
-                        <Image>52</Image>
+                        <Image>61</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>True</Flipped>
+                        <Flipped>False</Flipped>
                         <ID>6</ID>
-                        <Image>53</Image>
+                        <Image>62</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>True</Flipped>
+                        <Flipped>False</Flipped>
                         <ID>7</ID>
-                        <Image>54</Image>
+                        <Image>63</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>True</Flipped>
+                        <Flipped>False</Flipped>
                         <ID>8</ID>
-                        <Image>55</Image>
+                        <Image>64</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -4937,65 +4997,65 @@
                     <Frames>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>0</ID>
-                        <Image>47</Image>
+                        <Image>56</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>1</ID>
-                        <Image>48</Image>
+                        <Image>57</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>2</ID>
-                        <Image>49</Image>
+                        <Image>58</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>3</ID>
-                        <Image>50</Image>
+                        <Image>59</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>4</ID>
-                        <Image>51</Image>
+                        <Image>60</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>5</ID>
-                        <Image>52</Image>
+                        <Image>61</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>6</ID>
-                        <Image>53</Image>
+                        <Image>62</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>7</ID>
-                        <Image>54</Image>
+                        <Image>63</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>8</ID>
-                        <Image>55</Image>
+                        <Image>64</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
