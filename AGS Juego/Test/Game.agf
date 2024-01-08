@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>1</AudioIndexer>
+      <AudioIndexer>6</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
@@ -6062,6 +6062,71 @@
                 <SourceFileName xml:space="preserve">C:\Users\rober\Downloads\DIGITAL CIRCUS_ 0.mp3</SourceFileName>
                 <Type>2</Type>
                 <FileLastModifiedDate>2024-01-08 15:43:48Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>True</DefaultRepeat>
+                <DefaultVolume>50</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>1</ID>
+                <Index>2</Index>
+                <ScriptName>aDIGITAL_CIRCUS_3</ScriptName>
+                <SourceFileName>C:\Users\rober\Downloads\DIGITAL_CIRCUS_3.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-01-08 22:15:41Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>True</DefaultRepeat>
+                <DefaultVolume>50</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>2</ID>
+                <Index>3</Index>
+                <ScriptName>aDIGITAL_CIRCUS_11</ScriptName>
+                <SourceFileName>C:\Users\rober\Downloads\DIGITAL_CIRCUS_11.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-01-08 22:15:37Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>True</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>3</ID>
+                <Index>4</Index>
+                <ScriptName>aDIGITAL_CIRCUS_16</ScriptName>
+                <SourceFileName>C:\Users\rober\Downloads\DIGITAL_CIRCUS_16.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-01-08 22:15:37Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>4</ID>
+                <Index>5</Index>
+                <ScriptName>aDIGITAL_CIRCUS_7</ScriptName>
+                <SourceFileName>C:\Users\rober\Downloads\DIGITAL_CIRCUS_7.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-01-08 22:19:56Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>True</DefaultRepeat>
+                <DefaultVolume>50</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>5</ID>
+                <Index>6</Index>
+                <ScriptName>aDIGITAL_CIRCUS_Circo</ScriptName>
+                <SourceFileName>C:\Users\rober\Downloads\DIGITAL_CIRCUS_Circo.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-01-08 22:19:51Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
