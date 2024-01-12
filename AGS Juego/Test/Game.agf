@@ -701,14 +701,14 @@
               <BackgroundImage>0</BackgroundImage>
               <BorderColor>0</BorderColor>
               <Clickable>False</Clickable>
-              <Height>140</Height>
+              <Height>120</Height>
               <ID>0</ID>
               <Left>10</Left>
               <Name>gui_Dialogues</Name>
               <OnClick>gui_Dialogues_OnClick</OnClick>
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <Top>10</Top>
+              <Top>353</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
               <Width>620</Width>
@@ -741,17 +741,17 @@
                 <Height>100</Height>
                 <ID>1</ID>
                 <Image>0</Image>
-                <Left>22</Left>
+                <Left>12</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>t_Icon</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick />
+                <OnClick>t_Icon_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>23</Top>
+                <Top>11</Top>
                 <Visible>True</Visible>
                 <Width>100</Width>
                 <ZOrder>1</ZOrder>
@@ -1569,7 +1569,7 @@
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <Top>420</Top>
+              <Top>0</Top>
               <Transparency>0</Transparency>
               <Visible>True</Visible>
               <Width>80</Width>
@@ -1604,18 +1604,18 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>8452</BackgroundColor>
+              <BackgroundColor>38034</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <BorderColor>0</BorderColor>
+              <BorderColor>63488</BorderColor>
               <Clickable>True</Clickable>
               <Height>300</Height>
               <ID>4</ID>
-              <Left>10</Left>
+              <Left>5</Left>
               <Name>gInventoryTab</Name>
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <Top>110</Top>
+              <Top>60</Top>
               <Transparency>0</Transparency>
               <Visible>True</Visible>
               <Width>70</Width>
