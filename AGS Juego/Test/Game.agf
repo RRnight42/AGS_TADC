@@ -1640,6 +1640,45 @@
               </GUIInventory>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>65535</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>0</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>35</Height>
+              <ID>5</ID>
+              <Left>230</Left>
+              <Name>gCurrent_Mission</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>True</Visible>
+              <Width>420</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>18</Height>
+                <ID>0</ID>
+                <Left>22</Left>
+                <Locked>False</Locked>
+                <Name>Mission_text</Name>
+                <Text />
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>9</Top>
+                <Visible>True</Visible>
+                <Width>369</Width>
+                <ZOrder>0</ZOrder>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -2779,7 +2818,7 @@
           <Type>bool</Type>
         </GlobalVariable>
         <GlobalVariable>
-          <DefaultValue />
+          <DefaultValue>false</DefaultValue>
           <Name>needle</Name>
           <Type>bool</Type>
         </GlobalVariable>
@@ -2807,6 +2846,11 @@
           <DefaultValue>false</DefaultValue>
           <Name>TransitionEnd</Name>
           <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>CurrentMission</Name>
+          <Type>int</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -6929,6 +6973,30 @@
           <ScriptFolder Name="Global">
             <SubFolders />
             <ScriptAndHeaders>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>Mission.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1681626116</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>Mission.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1681626116</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
